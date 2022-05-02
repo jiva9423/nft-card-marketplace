@@ -4,7 +4,7 @@ const NFT_STORAGE_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6
 const client = new NFTStorage({ token: NFT_STORAGE_TOKEN })
 
 
-// Pass in file from file upload element. 
+// Pass in file from file upload element. .
 // Here is an example from stackoverflow: https://stackoverflow.com/questions/51533584/converting-an-image-to-binary-in-javascript-using-base64
 function uploadImageToIPFS(file, filename, mimetype, nftinfo, comp) {
     var reader = new FileReader()
@@ -23,3 +23,4 @@ function uploadImageToIPFS(file, filename, mimetype, nftinfo, comp) {
     }
     reader.readAsDataURL(file)
 }
+
